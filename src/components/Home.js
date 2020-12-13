@@ -33,7 +33,7 @@ useEffect(()=>{
         }
     }
     return () => BTCUSDws.close();
-});
+},[]);
 
 //BTCEUR
 useEffect(()=>{
@@ -55,7 +55,7 @@ useEffect(()=>{
         }
     }
     return () => BTCEURws.close();
-})
+},[])
 
 //ETHUSD
 useEffect(()=>{
@@ -78,7 +78,7 @@ useEffect(()=>{
         }
     }
     return () => ETHUSDws.close();
-})
+},[])
     
 //ETHEUR
 useEffect(()=>{
@@ -100,7 +100,7 @@ useEffect(()=>{
         }
     }
     return () => ETHEURws.close();
-})    
+},[])    
 //EOSUSD
 useEffect(()=>{
     const EOSUSDws = new WebSocket('wss://api-pub.bitfinex.com/ws/2');
@@ -121,7 +121,7 @@ useEffect(()=>{
         }
     }
     return () => EOSUSDws.close();
-})   
+},[])   
     return(
         <div className='tableDiv'>
             <Table>
