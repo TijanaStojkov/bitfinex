@@ -1,0 +1,1 @@
+export const addPercentage = (num) => `${(num*100).toFixed(1)}%`;
