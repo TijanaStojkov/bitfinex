@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Row, Icon, Col, Card, CardTitle } from 'react-materialize';
+
+//materialize
+import { Row, Icon, Col, Card, CardTitle, Button } from 'react-materialize';
 
 const img1 = 'https://api.hello-avatar.com/adorables/285';
 const img2 = 'https://api.hello-avatar.com/adorables/285/%3cYOUR_EMAIL';
@@ -23,7 +25,9 @@ const Profile = () => {
                 >
                     <Card
                     actions={[
-                        <a key="1" href="#0" onClick={toggleImage}>Toggle avatar</a>
+                        <Button key="1" onClick={toggleImage} style={{backgroundColor:'#F0DA5E', color:'#000', fontSize:'15px'}}>
+                            Toggle avatar
+                        </Button>
                     ]}
                     closeIcon={<Icon>close</Icon>}
                     header={<CardTitle image={img}></CardTitle>}

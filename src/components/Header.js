@@ -32,8 +32,8 @@ const Header = (props) => {
                     preventScrolling: true
                 }}
                 >
-                <NavLink to='/'> Home </NavLink>
-                {props.isAuth &&  <NavLink to='/profile'> Profile </NavLink>}
+                <NavLink to='/' onClick={function noRefCheck(){}}> Home </NavLink>
+                {props.isAuth &&  <NavLink to='/profile' onClick={function noRefCheck(){}}> Profile </NavLink>}
             </Navbar>
         </React.Fragment>
     )
