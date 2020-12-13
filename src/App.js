@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       
-      <Router basename='/'>
+      <Router basename='/bitfinex'>
         {!isAuth && <Redirect to={'/'}/>}
         <Redirect to={'/'}/>
           <Header isAuth={isAuth} handleLogin={handleLogin}/>
