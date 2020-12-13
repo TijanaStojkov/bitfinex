@@ -4,7 +4,7 @@
 
 .tableDiv {
   border-collapse: collapse;
-  margin: 30px 111px;
+  margin: 30px 100px;
   font-size: 0.9em;
   font-family: sans-serif;
   min-width: 400px;
@@ -34,4 +34,8 @@
 .Profile{
   margin: 40px 80px
 }
-
+@media screen and (max-width: 800px) {
+  .tableDiv {
+    margin: 30px 30px;
+  }
+}

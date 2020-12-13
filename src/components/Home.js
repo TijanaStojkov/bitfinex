@@ -123,7 +123,7 @@ useEffect(()=>{
     return () => EOSUSDws.close();
 })   
     return(
-        <div className='tableDiv  '>
+        <div className='tableDiv'>
             <Table>
                 <thead>
                     <tr>
@@ -132,7 +132,7 @@ useEffect(()=>{
                 </thead>
                 <tbody>
                     {symbol.map((element, index)=>
-                    <tr>
+                    <tr key={index}>
                         <td> {index+1} </td>
                         <td > {element} </td>
                         <td id={`DAILY_CHANGE_RELATIVE_${element}`}><Spinner/></td>
@@ -145,5 +145,4 @@ useEffect(()=>{
         </div>
     )
 }
-
 export default Home;
