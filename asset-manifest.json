@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bitfinex/static/css/main.cc1de313.chunk.css",
-    "main.js": "/bitfinex/static/js/main.e9ccc818.chunk.js",
-    "main.js.map": "/bitfinex/static/js/main.e9ccc818.chunk.js.map",
+    "main.css": "/bitfinex/static/css/main.0b3066b0.chunk.css",
+    "main.js": "/bitfinex/static/js/main.9e75975c.chunk.js",
+    "main.js.map": "/bitfinex/static/js/main.9e75975c.chunk.js.map",
     "runtime-main.js": "/bitfinex/static/js/runtime-main.382129b8.js",
     "runtime-main.js.map": "/bitfinex/static/js/runtime-main.382129b8.js.map",
     "static/css/2.f15e0525.chunk.css": "/bitfinex/static/css/2.f15e0525.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.11abd788.chunk.js.map": "/bitfinex/static/js/3.11abd788.chunk.js.map",
     "index.html": "/bitfinex/index.html",
     "static/css/2.f15e0525.chunk.css.map": "/bitfinex/static/css/2.f15e0525.chunk.css.map",
-    "static/css/main.cc1de313.chunk.css.map": "/bitfinex/static/css/main.cc1de313.chunk.css.map",
+    "static/css/main.0b3066b0.chunk.css.map": "/bitfinex/static/css/main.0b3066b0.chunk.css.map",
     "static/js/2.1de5f1f1.chunk.js.LICENSE.txt": "/bitfinex/static/js/2.1de5f1f1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.382129b8.js",
     "static/css/2.f15e0525.chunk.css",
     "static/js/2.1de5f1f1.chunk.js",
-    "static/css/main.cc1de313.chunk.css",
-    "static/js/main.e9ccc818.chunk.js"
+    "static/css/main.0b3066b0.chunk.css",
+    "static/js/main.9e75975c.chunk.js"
   ]
 }
